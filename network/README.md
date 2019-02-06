@@ -101,3 +101,9 @@ Run `./trade.sh stopneworg`
     (*Note*: This will remove all docker containers on your system, so if you want to be selective, modify the above commands suitably.)
   * To clean up network volumes, run `docker volume rm $(docker volume ls | grep -v VOL | awk '{print $2}')`.
     (*Note*: This will remove all docker volumes on your system, so if you want to be selective, modify the above command suitably.)
+
+# Problems 
+> ltdl.h not found
+```
+sudo apt install libltdl-dev
+```
